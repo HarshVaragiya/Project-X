@@ -48,32 +48,32 @@ pip install termcolor
 ### Election System :
 1. To use Election System, Modify the ElectionChoices.json File as per Requirement
 2. Run ElectionExample.py using:
-'''bash 
+```bash 
 python3 ElectionExample.py
-'''
+```
 3. Logs will be Exported to default file named "Election.txt" (change name in ResultCounter file too if you change output file here)
 4. To See Election Results, Run ResultCounter.py using:
-'''bash 
+```bash 
 python3 ResultCounter.py
-'''
+```
 5. Results will be displayed.
 
 ### Data Storage System :
 1. Edit Filename of INPUT_FILE in Encryptor.py
 2. Modify file if you want to (change chunk size using split() method if required)
 3. Run Encryptor.py using :
-'''bash 
+```bash 
 python3 Encryptor.py
-'''
+```
 4. OutputFile will be generated. Default name : EncryptedBlockChain.py 
 5. Run NewDecryptor.py using :
-'''bash 
+```bash 
 python3 NewDecryptor.py
-'''
+```
 6. Additionally, if file is too large or you want to see data being decrypted, run OldDecryptor.py using:
-'''bash 
+```bash 
 python3 OldDecryptor.py
-'''
+```
 7. Out File will be generated, also decrypted data will be displayed!
 
 ## Future : 
