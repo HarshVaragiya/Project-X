@@ -37,12 +37,12 @@ once file is encrypted -> stored -> decrypted , the hashes are the same, meaning
 2. termcolor (to make it look awesome)
 
 #### installation :
-'''bash
+```bash
 pip install pycryptodome
-'''
-'''bash
+```
+```bash
 pip install termcolor
-'''
+```
 ## Usage :
 
 ### Election System :
