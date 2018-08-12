@@ -29,7 +29,8 @@ In the End , if we want ordered Data, we can reverse the data array.
 
 ## Data Integrity :
 Testing the integrity of this system using OPENSSL and Hashlib on Python ( SHA256 ) shows that 
-once file is encrypted -> stored -> decrypted , the hashes are the same, meaning integrity is 100%.
+once file is encrypted -> stored -> decrypted , the hashes are the same, meaning integrity is 100% .
+![Screenshot](https://github.com/HarshVaragiya/Project-X/blob/master/Images/OPENSSL%20SHA256%20Comparison.png)
 
 ## Requirements :
 0. Python 3
