@@ -2,7 +2,7 @@ from BlockChain.BlockChain import BlockChain
 import time
 
 DATA_FILE_NAME = "ExampleFile.txt"
-OUT_FILE_NAME  = "EncrypedBlockChain.txt"
+OUT_FILE_NAME  = "EncryptedBlockChain.txt"
 
 raw_data = open(DATA_FILE_NAME,'r').read()
 kernel = BlockChain(0xFF)

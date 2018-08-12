@@ -7,7 +7,7 @@ import hashlib
 from termcolor import cprint
 
 
-READ_FILE = "EncrypedBlockChain.txt"
+READ_FILE = "EncryptedBlockChain.txt"
 
 
 os.system('cls')
