@@ -45,6 +45,11 @@ pip install pycryptodome
 pip install termcolor
 ```
 ## Usage :
+### Generating New Keys :
+Generate New RSA Keys when using this.To use Keygen :
+```bash 
+python3 Keygen.py
+```
 
 ### Election System :
 1. To use Election System, Modify the ElectionChoices.json File as per Requirement
