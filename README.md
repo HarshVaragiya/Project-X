@@ -36,7 +36,7 @@ once file is encrypted -> stored -> decrypted , the hashes are the same, meaning
 1. pycryptodome or pycryptodomex
 2. termcolor (to make it look awesome)
 
-#### installation :
+#### Installation :
 ```bash
 pip install pycryptodome
 ```
