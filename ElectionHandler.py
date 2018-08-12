@@ -1,4 +1,4 @@
-from BlockChain import BlockChain
+from BlockChain.BlockChain import BlockChain
 import os
 import json
 

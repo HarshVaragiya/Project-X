@@ -1,5 +1,4 @@
-from BlockChain import BlockChain
-from termcolor import cprint
+from BlockChain.BlockChain import BlockChain
 import time
 
 DATA_FILE_NAME = "ExampleFile.txt"
@@ -18,10 +17,10 @@ for i in range(total_len):
         rate = 0xFF                                              # No idea how to handle this !
     last_time = time.time()
     eta = (total_len - i -1)/rate
-    status = "Percentage : {:3.3f}  ->  Rate : {:4.2f}  ->  ETA : {:.2f} ".format(perc,rate,eta)
-    cprint(status,color='green')
+    status = "Percentage : {:3.3f} %  ->  Rate : {:4.2f} BlocksPerSecond  ->  ETA : {:.2f} Seconds ".format(perc,rate,eta)
+    print(status)
     kernel.insert(raw_data[i])
 
-cprint("Exported Data Sucessfully!",'blue')
+print("Exported Data Sucessfully!")
 enc_data = kernel.export_chain()
 open(OUT_FILE_NAME,'w').write(enc_data)
