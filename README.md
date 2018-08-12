@@ -46,7 +46,7 @@ pip install termcolor
 ```
 ## Usage :
 ### Generating New Keys :
-Generate New RSA Keys when using this.To use Keygen :
+Generate New RSA Keys when using this.
 ```bash 
 python3 Keygen.py
 ```
