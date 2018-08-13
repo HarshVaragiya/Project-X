@@ -25,6 +25,7 @@ if(modified == False):
         p(strx,'blue')
     p("\nElection Results Verified! ",'green')
 
-
+else:
+    p("Election Data has been Tampered With. Will not try to Unpack Data." ,'red')
 print("\n")
 
